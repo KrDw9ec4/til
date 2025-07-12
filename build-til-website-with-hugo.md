@@ -1,7 +1,7 @@
 ---
 title: 使用 Hugo 搭建 TIL 网站
 published: 2025-07-13T01:22:00
-modified: 
+modified: 2025-07-13T02:32:15
 tags:
   - til
   - hugo
@@ -27,7 +27,7 @@ tags:
     run: |
       git submodule update --remote content/til
   ```
-- 在 TIL 笔记仓库添加 Workflow，实现笔记更新时触发网站仓库重新部署。（[Refer](https://github.com/peter-evans/repository-dispatch)）
+- 在 TIL 笔记仓库添加 Workflow，实现笔记更新时触发网站仓库重新部署。（Refer [1](https://github.com/peter-evans/repository-dispatch), [2](https://github.com/KrDw9ec4/k1rin.com/commit/f7c8b131e247e96d7ae67786946f975422178e5b)）
 
 另外，我发现 Hugo 的项目结构设计的很优秀，之后可以考虑把博客文章也搬过来。
 
