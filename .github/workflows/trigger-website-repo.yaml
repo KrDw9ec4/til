@@ -1,0 +1,17 @@
+name: Trigger Website Repo Deployment
+
+on:
+  push:
+    branches:
+      - main  # 子模块仓库的默认分支
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Website Repo Deployment
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.WEBSITE_REPO_PAT }}
+          repository: KrDw9ec4/k1rin.com
+          event-type: content-update
