@@ -7,8 +7,6 @@ tags:
   - github
 ---
 
-# GitHub 工作流
-
 不要直接在 main 分支修改，每次都要新建一个 feat 分支，功能开发完全之后 Pull Request 到 main 分支（采用 squash and merge 的方式）。
 
 这样可以确保 main 分支每一个提交都是可以正常运行的。

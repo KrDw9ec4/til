@@ -7,8 +7,6 @@ tags:
   - vscode
 ---
 
-# Git 扩展支持行内 Git Blame 显示，替代 Git Blame 扩展
-
 原先我一直使用 [Git Blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame) 扩展来显示行内 git blame。
 
 ```json

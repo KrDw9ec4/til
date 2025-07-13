@@ -8,8 +8,6 @@ tags:
   - website
 ---
 
-# 使用 Hugo 搭建 TIL 网站
-
 今天使用 [Hugo](https://gohugo.io/) 框架和 [Hugo ʕ•ᴥ•ʔ Bear Blog](https://github.com/janraasch/hugo-bearblog/) 主题，搭建了一个 Today I Learned 网站，并通过 GitHub Workflow 实现自动化提交流程。
 
 - TIL 笔记存放在 [KrDw9ec4/til](https://github.com/KrDw9ec4/til)。
