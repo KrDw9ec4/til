@@ -15,7 +15,7 @@ tags:
 
 其中关键的几点：
 
-- 参考“References”中的链接，跑起来一个示例站点和自动部署工作流。
+- 参考「References」中的链接，跑起来一个示例站点和自动部署工作流。
 - 理解 Hugo 项目结构，更改站点配置文件 `Hugo.yaml`。
 - 使用 `git submodule` 将 TIL 笔记仓库作为子模块导入，并在 workflow 中添加以下 Job：
   ```yaml
