@@ -10,8 +10,8 @@ tags:
 
 今天使用 [Hugo](https://gohugo.io/) 框架和 [ʕ•ᴥ•ʔ Bear Blog](https://github.com/janraasch/hugo-bearblog/) 主题，搭建了一个 Today I Learned 网站，并通过 GitHub Workflow 实现自动化提交流程。
 
-- TIL 笔记存放在 [KrDw9ec4/til](https://github.com/KrDw9ec4/til)。
-- 网站源码放在 [KrDw9ec4/k1rin.com](https://github.com/KrDw9ec4/k1rin.com)。
+- TIL 笔记存放在 [k1rinh/til](https://github.com/k1rinh/til)。
+- 网站源码放在 [k1rinh/website](https://github.com/k1rinh/website)。
 
 其中关键的几点：
 
